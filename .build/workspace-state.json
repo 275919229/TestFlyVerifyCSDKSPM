@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "testflyverifycsdkspm",
+          "kind" : "root",
+          "location" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM",
+          "name" : "TestFlyVerifyCSDKSPM"
+        },
+        "path" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/Frameworks/FlyVerifyCSDK.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "FlyVerifyCSDKSPM"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 6
+}
