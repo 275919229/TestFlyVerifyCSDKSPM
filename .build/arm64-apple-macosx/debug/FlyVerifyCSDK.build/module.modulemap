@@ -1,0 +1,4 @@
+module FlyVerifyCSDK {
+    header "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDK.build/FlyVerifyCSDK-Swift.h"
+    requires objc
+}
