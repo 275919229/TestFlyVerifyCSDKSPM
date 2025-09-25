@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/master.swiftdeps"
+  },
+  "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/Sources/FlyVerifyCSDKSPM/FlyVerifyCSDKSPM.swift": {
+    "dependencies": "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/FlyVerifyCSDKSPM.d",
+    "object": "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/FlyVerifyCSDKSPM.swift.o",
+    "swiftmodule": "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/FlyVerifyCSDKSPM~partial.swiftmodule",
+    "swift-dependencies": "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/FlyVerifyCSDKSPM.swiftdeps"
+  }
+}

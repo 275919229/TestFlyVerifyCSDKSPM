@@ -1,9 +1,9 @@
 {
   "builtTestProducts" : [
     {
-      "binaryPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.xctest/Contents/MacOS/FlyVerifyCSDKPackageTests",
+      "binaryPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.xctest/Contents/MacOS/FlyVerifyCSDKSPMPackageTests",
       "packagePath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM",
-      "productName" : "FlyVerifyCSDKPackageTests"
+      "productName" : "FlyVerifyCSDKSPMPackageTests"
     }
   ],
   "copyCommands" : {
@@ -21,14 +21,14 @@
 
   ],
   "swiftCommands" : {
-    "C.FlyVerifyCSDK-arm64-apple-macosx15.0-debug.module" : {
+    "C.FlyVerifyCSDKSPM-arm64-apple-macosx15.0-debug.module" : {
       "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
-      "fileList" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDK.build/sources",
+      "fileList" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/sources",
       "importPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules",
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/Sources/FlyVerifyCSDK/FlyVerifyCSDK.swift"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/Sources/FlyVerifyCSDKSPM/FlyVerifyCSDKSPM.swift"
         },
         {
           "kind" : "file",
@@ -36,14 +36,14 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDK.build/sources"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/sources"
         }
       ],
       "isLibrary" : true,
-      "moduleName" : "FlyVerifyCSDK",
-      "moduleOutputPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules/FlyVerifyCSDK.swiftmodule",
+      "moduleName" : "FlyVerifyCSDKSPM",
+      "moduleOutputPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules/FlyVerifyCSDKSPM.swiftmodule",
       "objects" : [
-        "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDK.build/FlyVerifyCSDK.swift.o"
+        "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/FlyVerifyCSDKSPM.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -62,7 +62,7 @@
         "-parse-as-library",
         "-emit-objc-header",
         "-emit-objc-header-path",
-        "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDK.build/FlyVerifyCSDK-Swift.h",
+        "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/FlyVerifyCSDKSPM-Swift.h",
         "-color-diagnostics",
         "-swift-version",
         "6",
@@ -90,32 +90,32 @@
         "-package-name",
         "testflyverifycsdkspm"
       ],
-      "outputFileMapPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDK.build/output-file-map.json",
+      "outputFileMapPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/output-file-map.json",
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDK.build/FlyVerifyCSDK.swift.o"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/FlyVerifyCSDKSPM.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules/FlyVerifyCSDK.swiftmodule"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules/FlyVerifyCSDKSPM.swiftmodule"
         }
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/Sources/FlyVerifyCSDK/FlyVerifyCSDK.swift"
+        "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/Sources/FlyVerifyCSDKSPM/FlyVerifyCSDKSPM.swift"
       ],
-      "tempsPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDK.build",
+      "tempsPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build",
       "wholeModuleOptimization" : false
     },
-    "C.FlyVerifyCSDKPackageTests-arm64-apple-macosx15.0-debug.module" : {
+    "C.FlyVerifyCSDKSPMPackageTests-arm64-apple-macosx15.0-debug.module" : {
       "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
-      "fileList" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.build/sources",
+      "fileList" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.build/sources",
       "importPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules",
       "inputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.derived/runner.swift"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.derived/runner.swift"
         },
         {
           "kind" : "file",
@@ -127,14 +127,14 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.build/sources"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.build/sources"
         }
       ],
       "isLibrary" : true,
-      "moduleName" : "FlyVerifyCSDKPackageTests",
-      "moduleOutputPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules/FlyVerifyCSDKPackageTests.swiftmodule",
+      "moduleName" : "FlyVerifyCSDKSPMPackageTests",
+      "moduleOutputPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules/FlyVerifyCSDKSPMPackageTests.swiftmodule",
       "objects" : [
-        "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.build/runner.swift.o"
+        "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.build/runner.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -153,7 +153,7 @@
         "-parse-as-library",
         "-emit-objc-header",
         "-emit-objc-header-path",
-        "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.build/FlyVerifyCSDKPackageTests-Swift.h",
+        "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.build/FlyVerifyCSDKSPMPackageTests-Swift.h",
         "-color-diagnostics",
         "-sdk",
         "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
@@ -179,22 +179,22 @@
         "-package-name",
         "testflyverifycsdkspm"
       ],
-      "outputFileMapPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.build/output-file-map.json",
+      "outputFileMapPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.build/output-file-map.json",
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.build/runner.swift.o"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.build/runner.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules/FlyVerifyCSDKPackageTests.swiftmodule"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules/FlyVerifyCSDKSPMPackageTests.swiftmodule"
         }
       ],
       "prepareForIndexing" : false,
       "sources" : [
-        "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.derived/runner.swift"
+        "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.derived/runner.swift"
       ],
-      "tempsPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.build",
+      "tempsPath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.build",
       "wholeModuleOptimization" : false
     },
     "C.FlyVerifyCSDKTests-arm64-apple-macosx15.0-debug.module" : {
@@ -212,7 +212,7 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules/FlyVerifyCSDK.swiftmodule"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules/FlyVerifyCSDKSPM.swiftmodule"
         },
         {
           "kind" : "file",
@@ -290,15 +290,15 @@
 
   },
   "swiftTargetScanArgs" : {
-    "FlyVerifyCSDK" : [
+    "FlyVerifyCSDKSPM" : [
       "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
       "-module-name",
-      "FlyVerifyCSDK",
+      "FlyVerifyCSDKSPM",
       "-package-name",
       "testflyverifycsdkspm",
       "-incremental",
       "-c",
-      "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/Sources/FlyVerifyCSDK/FlyVerifyCSDK.swift",
+      "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/Sources/FlyVerifyCSDKSPM/FlyVerifyCSDKSPM.swift",
       "-I",
       "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules",
       "-target",
@@ -317,7 +317,7 @@
       "-parse-as-library",
       "-emit-objc-header",
       "-emit-objc-header-path",
-      "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDK.build/FlyVerifyCSDK-Swift.h",
+      "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/FlyVerifyCSDKSPM-Swift.h",
       "-color-diagnostics",
       "-swift-version",
       "6",
@@ -347,15 +347,15 @@
       "-driver-use-frontend-path",
       "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
     ],
-    "FlyVerifyCSDKPackageTests" : [
+    "FlyVerifyCSDKSPMPackageTests" : [
       "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
       "-module-name",
-      "FlyVerifyCSDKPackageTests",
+      "FlyVerifyCSDKSPMPackageTests",
       "-package-name",
       "testflyverifycsdkspm",
       "-incremental",
       "-c",
-      "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.derived/runner.swift",
+      "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.derived/runner.swift",
       "-I",
       "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/Modules",
       "-target",
@@ -374,7 +374,7 @@
       "-parse-as-library",
       "-emit-objc-header",
       "-emit-objc-header-path",
-      "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.build/FlyVerifyCSDKPackageTests-Swift.h",
+      "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.build/FlyVerifyCSDKSPMPackageTests-Swift.h",
       "-color-diagnostics",
       "-sdk",
       "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk",
@@ -458,37 +458,37 @@
     ]
   },
   "targetDependencyMap" : {
-    "FlyVerifyCSDK" : [
-      "FlyVerifyCSDKSPM"
+    "FlyVerifyCSDKSPM" : [
+      "FlyVerifyCSDK"
     ],
-    "FlyVerifyCSDKPackageTests" : [
+    "FlyVerifyCSDKSPMPackageTests" : [
       "FlyVerifyCSDKTests",
-      "FlyVerifyCSDK",
-      "FlyVerifyCSDKSPM"
+      "FlyVerifyCSDKSPM",
+      "FlyVerifyCSDK"
     ],
     "FlyVerifyCSDKTests" : [
-      "FlyVerifyCSDK",
-      "FlyVerifyCSDKSPM"
+      "FlyVerifyCSDKSPM",
+      "FlyVerifyCSDK"
     ]
   },
   "testDiscoveryCommands" : {
 
   },
   "testEntryPointCommands" : {
-    "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.derived/runner.swift" : {
+    "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.derived/runner.swift" : {
       "inputs" : [
 
       ],
       "outputs" : [
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.derived/runner.swift"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.derived/runner.swift"
         }
       ]
     }
   },
   "writeCommands" : {
-    "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDK.build/sources" : {
+    "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/sources" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
@@ -497,12 +497,12 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/Sources/FlyVerifyCSDK/FlyVerifyCSDK.swift"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/Sources/FlyVerifyCSDKSPM/FlyVerifyCSDKSPM.swift"
         }
       ],
-      "outputFilePath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDK.build/sources"
+      "outputFilePath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/sources"
     },
-    "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.build/sources" : {
+    "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.build/sources" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
@@ -511,12 +511,12 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.derived/runner.swift"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.derived/runner.swift"
         }
       ],
-      "outputFilePath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.build/sources"
+      "outputFilePath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.build/sources"
     },
-    "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.product/Objects.LinkFileList" : {
+    "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.product/Objects.LinkFileList" : {
       "alwaysOutOfDate" : false,
       "inputs" : [
         {
@@ -525,18 +525,18 @@
         },
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDK.build/FlyVerifyCSDK.swift.o"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPM.build/FlyVerifyCSDKSPM.swift.o"
         },
         {
           "kind" : "file",
-          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.build/runner.swift.o"
+          "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.build/runner.swift.o"
         },
         {
           "kind" : "file",
           "name" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKTests.build/TestFlyVerifyCSDKSPMTests.swift.o"
         }
       ],
-      "outputFilePath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKPackageTests.product/Objects.LinkFileList"
+      "outputFilePath" : "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKSPMPackageTests.product/Objects.LinkFileList"
     },
     "/Users/mob_m4/Documents/gitlab_source/TestFlyVerifyCSDKSPM/.build/arm64-apple-macosx/debug/FlyVerifyCSDKTests.build/sources" : {
       "alwaysOutOfDate" : false,
