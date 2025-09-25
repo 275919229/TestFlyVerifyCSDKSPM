@@ -15,11 +15,11 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .binaryTarget(name: "FlyVerifyCSDK",
+        .binaryTarget(name: "FlyVerifyCSDKBin",
                       path: "Frameworks/FlyVerifyCSDK.xcframework"),
         .target(
             name: "FlyVerifyCSDKSPM",
-            dependencies: ["FlyVerifyCSDK"],
+            dependencies: ["FlyVerifyCSDKBin"],
             linkerSettings: [
                 .linkedLibrary("z"),
                 .linkedLibrary("c++"),

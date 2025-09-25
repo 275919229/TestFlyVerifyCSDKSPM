@@ -27,6 +27,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>FlyVerifyCSDKSPM</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FlyVerifyCSDKTests</key>
 		<dict>
 			<key>primary</key>

@@ -13,7 +13,7 @@
         "source" : {
           "type" : "local"
         },
-        "targetName" : "FlyVerifyCSDK"
+        "targetName" : "FlyVerifyCSDKBin"
       }
     ],
     "dependencies" : [

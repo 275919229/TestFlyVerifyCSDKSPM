@@ -459,16 +459,16 @@
   },
   "targetDependencyMap" : {
     "FlyVerifyCSDKSPM" : [
-      "FlyVerifyCSDK"
+      "FlyVerifyCSDKBin"
     ],
     "FlyVerifyCSDKSPMPackageTests" : [
       "FlyVerifyCSDKTests",
       "FlyVerifyCSDKSPM",
-      "FlyVerifyCSDK"
+      "FlyVerifyCSDKBin"
     ],
     "FlyVerifyCSDKTests" : [
       "FlyVerifyCSDKSPM",
-      "FlyVerifyCSDK"
+      "FlyVerifyCSDKBin"
     ]
   },
   "testDiscoveryCommands" : {
