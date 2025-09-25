@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "FlyVerifyCSDKSPM",
+    name: "TestFlyVerifyCSDKSPM",
     platforms: [.iOS(.v10)], // 匹配OC Framework支持的最低版本
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "FlyVerifyCSDKSPM",
-            targets: ["FlyVerifyCSDKSPM"]),
+            name: "TestFlyVerifyCSDKSPM",
+            targets: ["TestFlyVerifyCSDKSPM"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -18,7 +18,7 @@ let package = Package(
         .binaryTarget(name: "FlyVerifyCSDKBin",
                       path: "Frameworks/FlyVerifyCSDK.xcframework"),
         .target(
-            name: "FlyVerifyCSDKSPM",
+            name: "TestFlyVerifyCSDKSPM",
             dependencies: ["FlyVerifyCSDKBin"],
             linkerSettings: [
                 .linkedLibrary("z"),
@@ -30,7 +30,7 @@ let package = Package(
             ]),
         .testTarget(
             name: "FlyVerifyCSDKTests",
-            dependencies: ["FlyVerifyCSDKSPM"]
+            dependencies: ["TestFlyVerifyCSDKSPM"]
         ),
     ]
 )
