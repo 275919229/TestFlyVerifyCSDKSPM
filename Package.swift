@@ -27,7 +27,6 @@ let package = Package(
                 .linkedFramework("SystemConfiguration"),
                 .linkedFramework("Foundation"),
                 .linkedFramework("UIKit"),
-//                .unsafeFlags(["-ObjC"])
             ]),
         .testTarget(
             name: "FlyVerifyCSDKTests",
